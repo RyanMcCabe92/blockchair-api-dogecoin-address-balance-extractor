@@ -12,5 +12,5 @@ This Python script imports Dogecoin addresses from a `.csv` file generated via [
 1. Place your `.csv` file within the same directory as `blockapi.py`
 2. Rename your `.csv` file to `addresses.csv`
 3. Remove all beginning data in the `addresses.csv` to ensure ONLY the address data is included
-a. AKA your first line should look like: `QRnA5dfgrWLaSohFeUpEKb9j3uyX1aDXN93zxEzm8esVn4fd5NoE,2016-11-06T08:25:40Z,change=1,#,addr=D5HNvX9sXcMw3a4H7Abvi121Te1BBdNa1d,`
+a. AKA your first line should look like: `QRnA5dfgrWLaSohFeUpEKb9j3uyX1aDXN93zxEzm8esVn4fd5NoE,2016-11-06T08:25:40Z,change=1,#,addr=D5HNvX9sXcMw3a4H7Abvi121Te1BBdNa1d,` (this is a dummy private key so go ahead and try to steal it)
 4. Run the Python script: `python3 blockapi.py`
